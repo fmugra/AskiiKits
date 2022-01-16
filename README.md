@@ -70,7 +70,7 @@ BELCH: Creatures in close proximity to the Dart Thrower must save vs. breath wea
 	
 - May lob the byproducts of their (failed) attempts at destillation at their enemies. Gains one use at level 3, and an additional use every 10 levels thereafter up to a total of three at level 24
 
-VAPOUR BOMB: Creatures in a 15'-ft. raidius of the impact must save vs. poison with a +2 penalty or suffer 60 points of intoxication (-4 luck, +4 morale) for 1 turn. Note that multiple applications of Vapour bomb do not result in increased levels of intoxication.
+VAPOUR BOMB: Creatures in a 15'-ft. radius of the impact must save vs. poison with a +2 penalty or suffer 60 points of intoxication (-4 luck, +4 morale) for 1 turn. Note that multiple applications of Vapour bomb do not result in increased levels of intoxication.
   15th Level: Saving Throw penalty increases to +4
 	
 - May commission their own customized magical dart at high levels
