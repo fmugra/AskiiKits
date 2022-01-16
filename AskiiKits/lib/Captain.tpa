@@ -1,0 +1,110 @@
+LOAD_TRA ~AskiiKits/captain/tra/english/captain.tra~
+
+COPY ~AskiiKits/captain/2das~ ~override~
+COPY ~AskiiKits/captain/spells~ ~override~
+
+ADD_KIT ~a9ca~
+  ~a9ca                1           1           1           1           1           1           1           1~
+  ~a9ca 0 0 0 0 0 0 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  ~a9ca                6       0       0       0       0       9~
+  ~a9ca                0       0       0       0       -4      0~
+  ~a9ca                12      0       0       0       0       0~
+  ~a9ca                15      0       0       0       0       12~
+  ~a9ca                1       1       1       1       1       1       0       0       0~
+  ~a9ca                0       1       1       1       1       0~
+  ~AskiiKits/captain/2das/a9ca.2da~
+  ~K_F_H K_F_E K_F_HE K_F_HL K_F_D K_F_G K_F_HO~
+  ~0x00004000     2~
+  ~fi0~
+  ~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+  SAY @1
+  SAY @2
+  SAY @3
+  
+LAF fl#add_kit_ee
+  STR_VAR
+    kit_name = ~a9ca~
+    clsrcreq = ~1 1 1 1 1 1 1~
+	hpclass = ~hpa9ca~
+END
+
+COPY ~AskiiKits/captain/spells/a9caab1.SPL~ ~override~
+SAY NAME1 @4
+ SAY NAME2 @4
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 146
+	STR_VAR
+		match_resource = SPPR203D
+		resource = a9caab1b
+END
+
+COPY ~AskiiKits/captain/spells/a9caab1b.SPL~ ~override~
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 321
+	STR_VAR
+		match_resource = SPWI001
+		resource = a9caab1b
+END
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 321
+	STR_VAR
+		match_resource = SPWI002
+		resource = a9caab2b
+END
+
+COPY ~AskiiKits/captain/spells/a9caab2.SPL~ ~override~
+SAY NAME1 @5
+ SAY NAME2 @5
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 146
+	STR_VAR
+		match_resource = SPPR203D
+		resource = a9caab2b
+END
+
+COPY ~AskiiKits/captain/spells/a9caab2b.SPL~ ~override~
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 321
+	STR_VAR
+		match_resource = SPWI001
+		resource = a9caab1b
+END
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 321
+	STR_VAR
+		match_resource = SPWI002
+		resource = a9caab2b
+END
+
+COPY ~AskiiKits/captain/spells/a9caab3.SPL~ ~override~
+SAY NAME1 @6
+ SAY NAME2 @6
+
+COPY ~AskiiKits/captain/spells/a9caab4.SPL~ ~override~
+SAY NAME1 @7
+ SAY NAME2 @7
+
+COPY ~AskiiKits/captain/spells/a9caab5.SPL~ ~override~
+SAY NAME1 @8
+ SAY NAME2 @8
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 146
+	STR_VAR
+		match_resource = SPWI001
+		resource = a9caab5b
+END
+
+COPY ~AskiiKits/captain/spells/a9caab6.SPL~ ~override~
+SAY NAME1 @9
+ SAY NAME2 @9
+
+COPY ~AskiiKits/captain/spells/a9caab7.SPL~ ~override~
+SAY NAME1 @10
+ SAY NAME2 @10

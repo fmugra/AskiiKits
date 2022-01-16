@@ -1,0 +1,47 @@
+LOAD_TRA ~AskiiKits/priestofmystra/tra/english/priestofmystra.tra~
+
+COPY ~AskiiKits/priestofmystra/2das~ ~override~
+COPY ~AskiiKits/priestofmystra/spells~ ~override~
+
+ADD_KIT ~a9pm~
+  ~a9pm                1           1           1           1           1           1           1           1~
+  ~a9pm 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  ~a9pm                0       0       0       0       9       0~
+  ~a9pm                0       0       0       0       0       0~
+  ~a9pm                0       0       0       0       17      0~
+  ~a9pm                0       0       0       0       15      0~
+//                     LG      LN      LE      NG      TN      NE      CG      CN      CE
+  ~a9pm                1       1       1       1       0       0       1       1       0~
+//  Dual Class into    F       C       M       T       D       R
+  ~a9pm                1       0       1       1       0       1~
+  ~AskiiKits/priestofmystra/2das/a9pm.2da~
+  ~K_C_H K_C_E K_C_HE K_C_HL K_C_D K_C_G K_C_HO~
+  ~0x00004000     3~
+  ~CL0~
+  ~CHAN09 * HELM07 BAG26 RING06 RING31 * BOOT01 AMUL20 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+  SAY @1
+  SAY @2
+  SAY @3
+  
+LAF fl#add_kit_ee
+  STR_VAR
+    kit_name = ~a9pm~
+	clsrcreq = ~1 1 1 1 1 1 1~
+END
+
+COPY_EXISTING ~SPWI219.SPL~ ~OVERRIDE/a9pmab2.SPL~
+WRITE_SHORT 0X1C 4
+LPF ALTER_SPELL_HEADER
+	INT_VAR
+		location = 4
+END
+
+ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+	COPY_EXISTING ~SPWI921.SPL~ ~OVERRIDE/a9pmab3.SPL~
+	WRITE_SHORT 0X1C 4
+	LPF ALTER_SPELL_HEADER
+		INT_VAR
+			location = 4
+	END
+END
+

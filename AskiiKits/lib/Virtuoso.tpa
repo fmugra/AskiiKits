@@ -1,0 +1,33 @@
+LOAD_TRA ~AskiiKits/virtuoso/tra/english/virtuoso.tra~
+
+COPY ~AskiiKits/virtuoso/2das~ ~override~
+COPY ~AskiiKits/virtuoso/spells~ ~override~
+
+ADD_KIT ~a9vr~
+  ~a9vr                1           1           1           1           1           1           1           1~
+  ~a9vr 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  ~a9vr                0       0       0       9       0       9~
+  ~a9vr                0       0       0       0       -4      0~
+  ~a9vr                0       0       0       17      0       0~
+  ~a9vr                0       0       0       17      0       0~
+  ~a9vr                1       1       1       1       1       1       1       1       1~
+  ~a9vr                0       0       0       0       0       0~
+  ~AskiiKits/virtuoso/2das/a9vr.2da~
+  ~K_S_H K_S_E K_S_HE K_S_HL K_S_D K_S_G K_S_HO~
+  ~0x00004000     19~
+  ~a9vr~
+  ~* * * BAG29 RING06 RING40 * BOOT01 AMUL21 BRAC15 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 SLNG05 DAGG05,20 STAF20~
+  SAY @1
+  SAY @2
+  SAY @3
+  
+LAF fl#add_kit_ee
+  STR_VAR
+    kit_name = ~a9vr~
+    clsrcreq = ~1 1 1 1 1 1 1~
+END
+
+COPY ~AskiiKits/virtuoso/spells/a9vrab6.SPL~ ~override~
+SAY NAME1 @4
+ SAY NAME2 @4
+ SAY UNIDENTIFIED_DESC @5

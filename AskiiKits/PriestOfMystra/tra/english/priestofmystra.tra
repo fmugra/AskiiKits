@@ -1,0 +1,18 @@
+@0    = ~Priest of Mystra Kit for BG:EE and BG2:EE (Cleric)~
+@1    = ~priest of mystra~
+@2    = ~Priest of Mystra~
+@3    = ~PRIEST OF MYSTRA: Mystra is the goddess of magic, spells and the weave. Her followers seek to find and preserve as much knowledge of old magic as they can, as well as experiment to improve existing spells or create entirely new ones.
+
+Advantages:
+- -1 bonus to spellcasting time, additional -1 at levels 10, 20 and 30
+- Gains access to a number of arcane abilities that they can use once per day
+  Level 2: Enchant Weapon (Priest of Mystra)
+  Level 10: Vocalize
+  Level 19: Improved Alacrity
+  
+ENCHANT WEAPON: The priest of mystra casts this spell on a creature to enchant any weapons that it currently wields. For the next turn, those weapons are treated as having a +1 enchantment for the purposes of determining what they can hit. Duration and enchantment level increase for every five levels of the priest after 2, up to +5 and 5 turns duration at level 22.
+  
+  
+
+Disadvantages:
+- Alignment restricted to Lawful Good, Neutral Good, Chaotic Good, Lawful Neutral, Chaotic Neutral and Lawful Evil~

@@ -1,0 +1,80 @@
+@0    = ~Dart Thrower Kit for BG:EE and BG2:EE (Thief)~
+@1    = ~dart thrower~
+@2    = ~Dart Thrower~
+@3    = ~DART THROWER: Many a boisterous lout seeks out a tavern to rid themselves of their coin, but while the dart thrower looks the same on the surface, they have the opposite in mind: Be it honest winnings from a fair game, or the contents of spectators pockets snatched while they're watching the other competitors, the dart thrower's affable drunkenness lures them in, while their quick and steady hands seize the prize.
+
+Advantages:
+- May achieve Grand Mastery (5 slots) in darts (but does not gain additional attacks per round)
+- +1 to hit and damage with darts at leavel 1 and every 4 levels thereafter
+- May belch to distract their opponents, Gains one use at level 1, and an additional use every five levels thereafter up to a total of four at level 21.
+
+BELCH: Creatures in close proximity to the Dart Thrower must save vs. breath weapons or be deafened for 2 rounds.
+	
+- May lob the byproducts of their (failed) attempts at destillation at their enemies. Gains one use at level 3, and an additional use every 10 levels thereafter up to a total of three at level 24
+
+VAPOUR BOMB: Creatures in a 15'-ft. raidius of the impact must save vs. poison with a +2 penalty or suffer 60 points of intoxication (-4 luck, +4 morale) for 1 turn. Note that multiple applications of Vapour bomb do not result in increased levels of intoxication.
+  15th Level: Saving Throw penalty increases to +4
+	
+- May commission their own customized magical dart at high levels
+- May use the Hardiness and Whirlind high-level abilities
+
+Disadvantages:
+- May not achieve proficiency in any fighting style other than single-weapon style, nor any ranged weapon other than darts
+- May only distribute 15 skill points per level
+- May not use the Hide in the Shadows ability
+- May not use the Backstab ability
+- May not use the Assassination, Scribe Scrolls, Spike Trap or (Greater) Evasion high level abilities~
+@4    = ~Belch~
+@5    = ~Vapour Bomb~
+@6    = ~Dip Darts~
+@6    = ~The Big One +5~
+@7    = ~The dart thrower has constructed their custom dart to be larger and significantly heavier than ordinary darts, before having it enchanted so that it leaps back into their hand whenever the dart thrower commands it. When asked what good punching a hole through the dart board is in a competition, the dart thrower replies: "I've never done that and then NOT been offerred free drinks by SOMEONE in the audience."
+
+STATISTICS:
+
+Combat abilities:
+– Returns to the wielder's hand when thrown
+- 1 extra attack per round
+
+THAC0: +5
+Damage: 1d3+8 (missile)
+Speed Factor: 0
+Proficiency Type: Dart
+Type: One-handed
+
+Weight: 0~
+@8    = ~Agda +5~
+@9    = ~This dart bears the name of Agda Holderhek, 7-year champion of the Waterdeep fairgrounds, and, according to the thrower who commissioned this dart, "second-best dart thrower in all the realms". When she died unexpectedly of liver failure, her friend and rival made an attempt to capture some of her personality in this item. As a result, a second, ghostly dart will occasionally split off in mid air, and instead strike the target she would have aimed for.
+
+STATISTICS:
+
+Combat abilities:
+– 30% chance of striking a second, nearby target for 1d3+12 missile damage
+– Returns to the wielder's hand when thrown
+
+THAC0: +5
+Damage: 1d3+5 (missile)
+Speed Factor: 0
+Proficiency Type: Dart
+Type: One-handed
+
+Weight: 0~
+@10    = ~Swindler's Bane +4~
+@11    = ~One of the earliest childhood memories of the thrower who commissioned this dart was narrowly losing a match against a boy whose parents were a sorceress and a priest of Tymorra. While there was no evidence that they did, in fact, cast any performance enhancing spells on the boy, the dart thrower became convinced that they had. The resulting aversion to such spells (only when cast on their opponents, naturally) led to the creation of this weapon, which is as apt at draining it's victims of magic energies as it is at draining them of blood.
+
+STATISTICS:
+
+Combat abilities:
+– 10% chance of dispelling magic effects on hit
+– Returns to the wielder's hand when thrown
+
+THAC0: +4
+Damage: 1d3+4 (missile)
+Speed Factor: 0
+Proficiency Type: Dart
+Type: One-handed
+
+Weight: 0~
+@12    = ~Custom Dart: Big Wallop +5~
+@13    = ~Custom Dart: Agda +5~
+@14    = ~Custom Dart: Swindler's Bane +4~

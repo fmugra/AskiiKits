@@ -1,0 +1,30 @@
+@0    = ~Virtuoso Kit for BG:EE and BG2:EE (Sorcerer)~
+@1    = ~virtuoso~
+@2    = ~Virtuoso~
+@3    = ~VIRTUOSO: Aloof and ostentatious even by sorcerer standards, the virtuoso focuses on exclusively on mastering a select few spells over gaining a large variety of talents. What spells they do choose to focus on, they cast with astonishing speed, precision and frequency. Anything that is not their chosen field of expertise, however, they are almost comically inept at, if they choose to make the attampt at all. Such lesser tasks, they reason, are best left to those of lesser skill.
+
+Advantages:
+- -1 bonus to spellcasting time, additional -1 at levels 10, 20 and 30
+- +1 to caster level every three levels (up to +5 at level 15)
+- can cast 2 more spells per day per spell level than regular sorcerers
+- Gains access to the Disruption Wave high level spell
+
+DISRUPTION WAVE: The Virtuoso unleashes a wave of energy, carefully tuned to drain and exhaust their oppenents' magic resistances by 30% in a 15' radius for 2 turns.
+
+Disadvantages:
+- +1 malus to Armor Class, additional +1 at levels 10, 20, and 30
+- +1 malus to all saving throws, additional +1 at levels 15 and 25
+- Does not gain any weapon proficiency points
+- -4 malus to wisdom~
+@4    = ~Disruption Wave~
+@5    = ~Disruption Wave
+(Abjuration)
+
+Level: 10
+Range: 30 ft.
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: 15-ft. radius
+Saving Throw: None
+
+The Virtuoso unleashes a wave of energy, carefully tuned to drain and exhaust their oppenents' magic resistances by 30% in a 15' radius for 2 turns. There is no Saving Throw, and the targets' Magic Resistance, if any, does not affect this spell.Effects are cumulative, and cannot be dispelled.~

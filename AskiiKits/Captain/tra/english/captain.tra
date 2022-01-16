@@ -1,0 +1,59 @@
+@0    = ~Captain Kit for BG:EE and BG2:EE (Fighter)~
+@1    = ~captain~
+@2    = ~Captain~
+@3    = ~CAPTAIN: Blessed with a commanding voice, and well trained to quickly assess any given combat situation, the Captain spots strengths and weaknesses on either side of any battle, and directs their allies to exploit them. This comes at the expense of the captains own martial skills, which they only hone far enough to not lose the respect of other fighters.
+
+Advantages:
+- Minimum charisma: 9
+- Immune to sleep and confusion/chaos
+- May encourage the party before battle, increasing their resilience. Gains one use per day at Level 2, and an additional use at Level 33. Only one encouragement can be active at any time.
+
+RESILIENCE: The party gains 10% resistance to physical, elemental and magical damage for 2 turns.
+  24th Level: resistance increases to 20%
+
+- May encourage the party before battle, increasing their aggression. Gains one use per day at Level 5, and an additional use at Level 28. Only one encouragement can be active at any time.
+
+AGGRESSION: The party becomes hasted  for 2 turns. 
+  20th Level: Upgrades to Improved Haste
+
+- May increase the party's awareness of a dangerous foe. Gains one use per day at Level 1, and an additional use at Levels 3, 8 and 16
+
+"WATCH THIS ONE!": The target suffers a +2 penalty to THAC0 for 3 rounds
+  13th Level: The penaly increases to +4
+  26th Level: The penaly increases to +6
+  
+- May remove certain debilitating conditions from party members. Gains one use per day at Level 1, and an additional use at Levels 10 and 19
+
+"PULL YOURSELF TOGETHER": Removes any sleep effects from the target. Gains additional benefits based on the level of the captain:
+  3rd Level: Removes Fear
+  7th Level: Removes Confusion
+  
+- May alert their allies to an incoming volley or spell. Gains one use per day at Level 4, and an additional use at Level 13
+
+"GET DOWN": Party members gain a -6 bonus to Armor Class against missile attacks and all saving throws for 1 round
+
+- May attempt to distract enemy spellcasters by shouting at them and causing their spells to fail. Gains one use at Level 6, and an additional use at Levels 12 and 27
+
+"SHUT IT!": Target suffers a spell failure chance of 100% for 1 round if they fail their Saving Throw vs. Breath Weapons
+  15th Level: Targets save at a +2 penalty
+  28th Level: Penalty increases to +4
+  
+- May point out weaknesses in their opponents' defenses to their allies. Gains one use per day at Level 7, and an additional use at Levels 14 and 23
+
+"THIS ONE'S EXPOSED!": The target suffers a +2 penalty to armor class and saving throws for 3 rounds
+  17th Level: Penalty increases to +4
+  27th Level: Penalty increases to +6
+  
+Disadvantages:
+- Minimum strength: 6
+- Aligment may not be chaotic
+- May not spend any proficiency points on Two-Handed Weapon Style, Two-Weapon Style or Sword and Shield Style
+- May not exceed specialization (2 slots) in any weapon
+- Hit Die: d8~
+@4    = ~Encourage: Resilience~
+@5    = ~Encourage: Aggression~
+@6    = ~"Watch this one!"~
+@7    = ~"Pull yourself together!"~
+@8    = ~"Get down!"~
+@9    = ~"Shut it!"~
+@10   = ~"This one's exposed!"~

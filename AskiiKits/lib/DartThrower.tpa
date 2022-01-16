@@ -1,0 +1,96 @@
+LOAD_TRA ~AskiiKits/dartthrower/tra/english/dartthrower.tra~
+
+COPY ~AskiiKits/dartthrower/2das~ ~override~
+COPY ~AskiiKits/dartthrower/spells~ ~override~
+
+ADD_KIT ~a9dt~
+  ~a9dt                1           1           1           1           1           1           1           1~
+  ~a9dt 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 0 0 0 5 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  ~a9dt                0       7       7       0       0       0~
+  ~a9dt                0       0       0       0       0       0~
+  ~a9dt                0       15      15      0       0       0~
+  ~a9dt                0       15      15      0       0       0~
+  ~a9dt                0       0       0       1       1       1       1       1       1~
+  ~a9dt                1       0       1       0       0       0~
+  ~AskiiKits/dartthrower/2das/a9dt.2da~
+  ~K_T_H K_T_E K_T_HE K_T_HL K_T_D K_T_G K_T_HO~
+  ~0x00004000     4~
+  ~a9dt~
+  ~LEAT14 * * BAG28 RING06 RING05 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
+  SAY @1
+  SAY @2
+  SAY @3
+  
+LAF fl#add_kit_ee
+  STR_VAR
+    kit_name = ~a9dt~
+    clsrcreq = ~1 1 1 1 1 1 1~
+	clswpbon = ~1 0 3~
+	thiefskl = ~30 15~
+	thiefscl = ~100 100 100 0 0 100 100 0~
+	backstab = ~1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1~
+END
+
+COPY ~AskiiKits/dartthrower/spells/a9dtab2.SPL~ ~override~
+SAY NAME1 @4
+ SAY NAME2 @4
+
+COPY ~AskiiKits/dartthrower/spells/a9dtab3.SPL~ ~override~
+SAY NAME1 @5
+ SAY NAME2 @5
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 321
+	STR_VAR
+		match_resource = SPWI001
+		resource = a9dtab3
+END
+
+
+COPY ~AskiiKits/dartthrower/itm/a9dtit1.itm~ ~override~
+ SAY NAME2 @6
+ SAY DESC @7
+
+COPY ~AskiiKits/dartthrower/spells/a9dtit1.SPL~ ~override~
+ SAY UNIDENTIFIED_DESC @7
+ SAY NAME1 @12
+ SAY NAME2 @12
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 122
+	STR_VAR
+		match_resource = cdhlysym
+		resource = a9dtit1
+END
+
+COPY ~AskiiKits/dartthrower/itm/a9dtit2.itm~ ~override~
+ SAY NAME2 @8
+ SAY DESC @9
+ 
+COPY ~AskiiKits/dartthrower/spells/a9dtit2.SPL~ ~override~
+ SAY UNIDENTIFIED_DESC @9
+ SAY NAME1 @13
+ SAY NAME2 @13
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 122
+	STR_VAR
+		match_resource = cdhlysym
+		resource = a9dtit2
+END
+
+COPY ~AskiiKits/dartthrower/itm/a9dtit3.itm~ ~override~
+ SAY NAME2 @10
+ SAY DESC @11
+ 
+COPY ~AskiiKits/dartthrower/spells/a9dtit3.SPL~ ~override~
+ SAY UNIDENTIFIED_DESC @11
+ SAY NAME1 @14
+ SAY NAME2 @14
+LPF ALTER_EFFECT
+	INT_VAR
+		match_opcode = 122
+	STR_VAR
+		match_resource = cdhlysym
+		resource = a9dtit3
+END

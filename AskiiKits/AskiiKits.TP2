@@ -1,0 +1,22 @@
+BACKUP ~AskiiKits/backup~
+AUTHOR ~Askii~
+VERSION ~1~
+ALWAYS
+  INCLUDE ~%MOD_FOLDER%/lib/fl#add_kit_ee.tpa~
+END
+
+BEGIN ~Askii's Kitpack: Dart Thrower Thief kit~
+GROUP ~Thief Kits~
+INCLUDE ~%MOD_FOLDER%/lib/DartThrower.tpa~
+
+BEGIN ~Askii's Kitpack: Captain Fighter kit~
+GROUP ~Fighter Kits~
+INCLUDE ~%MOD_FOLDER%/lib/Captain.tpa~
+
+BEGIN ~Askii's Kitpack: Virtuoso Sorcerer kit~
+GROUP ~Sorcerer Kits~
+INCLUDE ~%MOD_FOLDER%/lib/Virtuoso.tpa~
+
+BEGIN ~Askii's Kitpack: Priest of Mystra Cleric kit~
+GROUP ~Cleric Kits~
+INCLUDE ~%MOD_FOLDER%/lib/PriestOfMystra.tpa~
